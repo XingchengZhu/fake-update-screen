@@ -1,16 +1,70 @@
-# React + Vite
+<div align="center">
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+  # 🎭 Moyu Simulator (摸鱼模拟器)
+  
+  **Fake System Update Screens for your "Coffee Break".**
+  <br>
+  **逼真的系统升级画面，让你名正言顺地休息。**
 
-Currently, two official plugins are available:
+  [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+  ![React](https://img.shields.io/badge/Made%20with-React-61DAFB.svg?style=flat&logo=react)
+  
+  [**🚀 Live Demo / 在线体验**](https://fake-update-screen.vercel.app)
+  
+  <br>
+</div>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+![Main App Screenshot](public/screenshot-main.png)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 📖 Introduction (简介)
 
-## Expanding the ESLint configuration
+**Moyu Simulator** turns your browser into a realistic system update screen. Whether you use macOS or Windows, just click a button, go full screen, and enjoy your peace of mind while your computer is "updating".
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+**Moyu Simulator** 把你的浏览器变成逼真的系统升级画面。无论你用 Mac 还是 Windows，只需点一下，立刻全屏，你就可以指着屏幕对老板说：“电脑正在升级，我也没办法🤷‍♂️”。
+
+## ⚡ Features (功能)
+
+### 🍎 macOS Update
+Classic Apple logo with a slow-moving progress bar. Perfect for Mac users.
+![macOS Preview](public/screenshot-macos.png)
+
+### 🪟 Windows 10 Update
+The anxiety-inducing rotating spinner and "Working on updates". The classic freeze.
+![Windows Preview](public/screenshot-win10.png)
+
+### 💀 BSOD (Blue Screen)
+The legendary "Your PC ran into a problem" screen. For emergency situations.
+![BSOD Preview](public/screenshot-bsod.png)
+
+### 🔒 Immersion Details (沉浸体验)
+* **Cursor Hiding**: The mouse cursor automatically disappears for total immersion.
+* **Auto Fullscreen**: Enters full screen instantly upon selection.
+* **ESC to Exit**: Press `ESC` key to magically fix your computer.
+
+## 📦 Getting Started
+
+1.  Clone the repo
+    ```bash
+    git clone [https://github.com/yourusername/fake-update-screen.git](https://github.com/yourusername/fake-update-screen.git)
+    ```
+2.  Install packages
+    ```bash
+    npm install
+    ```
+3.  Run
+    ```bash
+    npm run dev
+    ```
+
+## ⚠️ Disclaimer
+
+Use responsibly. The author is not responsible for any "fired from job" incidents.
+<br>
+仅供娱乐，作者不对因使用本工具导致的“被解雇”负责。
+
+---
+<div align="center">
+  <sub>Built with ❤️ by <a href="https://github.com/xingchengzhu">Xingcheng Zhu</a></sub>
+</div>
