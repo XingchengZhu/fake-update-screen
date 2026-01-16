@@ -58,6 +58,11 @@ The legendary "Your PC ran into a problem" screen. For emergency situations.
     npm run dev
     ```
 
+## ⚠️ Known Issues / Notes
+
+* **"Press ESC to exit fullscreen" popup**: You might see a browser popup appearing at the top when entering the simulation.
+    > **Note**: This is a mandatory security feature enforced by modern browsers (Chrome, Edge, Firefox) to prevent malicious websites from trapping users. **It cannot be disabled via code.**
+
 ## ⚠️ Disclaimer
 
 Use responsibly. The author is not responsible for any "fired from job" incidents.
